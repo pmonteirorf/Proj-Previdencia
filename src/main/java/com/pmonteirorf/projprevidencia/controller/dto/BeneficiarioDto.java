@@ -25,6 +25,7 @@ public class BeneficiarioDto {
 		this.saldo = beneficiario.getConta().getSaldo();
 		this.valorAposentadoria = beneficiario.getConta().getValorAposentadoria();
 	}
+	
 	public String getNome() {
 		return nome;
 	}
@@ -33,15 +34,13 @@ public class BeneficiarioDto {
 	}
 	public String getEmail() {
 		return email;
-	}
-		
+	}		
 	public Long getId() {
 		return id;
 	}
 	public int getPeriodoBeneficio() {
 		return periodoBeneficio;
-	}
-	
+	}	
 	public Double getSaldo() {
 		return saldo;
 	}

@@ -11,6 +11,7 @@ public class AporteForm {
 	
 	private Long idBeneficiario;
 	private Double valorAporte;
+	
 	public Long getIdBeneficiario() {
 		return idBeneficiario;
 	}

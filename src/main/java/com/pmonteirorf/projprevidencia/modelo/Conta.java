@@ -14,8 +14,7 @@ public class Conta {
 	private int periodoBeneficio; //quantidade em anos que o Beneficiários receberá o valor da aposentadoria
 	private Double saldo;
 	private Double valorAposentadoria;
-			
-	
+				
 	public Conta() {
 	}
 

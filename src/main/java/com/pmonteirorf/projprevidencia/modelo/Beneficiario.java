@@ -17,9 +17,7 @@ public class Beneficiario {
 	
 	@OneToOne
 	private Conta conta;
-	
-	
-		
+			
 	public Beneficiario() {
 	}
 
@@ -58,9 +56,7 @@ public class Beneficiario {
 	public Conta getConta() {
 		return conta;
 	}
-
 	public void setConta(Conta conta) {
 		this.conta = conta;
-	}
-	
+	}	
 }

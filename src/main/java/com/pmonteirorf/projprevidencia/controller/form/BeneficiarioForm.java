@@ -5,13 +5,13 @@ import com.pmonteirorf.projprevidencia.modelo.Conta;
 import com.pmonteirorf.projprevidencia.repository.ContaRepository;
 
 public class BeneficiarioForm {
+	
 	private String nome;
 	private Long cpf;
 	private String email;
 	private int periodoBeneficio;
 	private Double saldoAposentadoria;
-	
-	
+		
 	public BeneficiarioForm(String nome, Long cpf, String email, int periodoBeneficio, Double saldoAposentadoria) {
 		super();
 		this.nome = nome;
@@ -20,6 +20,7 @@ public class BeneficiarioForm {
 		this.periodoBeneficio = periodoBeneficio;
 		this.saldoAposentadoria = saldoAposentadoria;
 	}
+	
 	public String getNome() {
 		return nome;
 	}
